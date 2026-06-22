@@ -1,0 +1,12 @@
+application:
+  name: homer
+  pods:
+  - name: app
+    image: b4bz/homer:latest
+    path: /
+    servicePorts:
+    - 8080
+    volumes:
+    - name: homer-assets
+      mountPath: /www/assets
+      size: 1Gi
