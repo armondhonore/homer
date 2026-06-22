@@ -2,7 +2,7 @@ application:
   name: homer
   pods:
   - name: app
-    image: b4bz/homer:latest
+    image: mirror.gcr.io/b4bz/homer:latest
     path: /
     servicePorts:
     - 8080
